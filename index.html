@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício Background Pro - Edição HTML</title>
+</head>
+
+<body id="meu-background" background="ceu.jpg" style="color: white; text-shadow: 2px 2px 4px #000; font-family: sans-serif;">
+
+    <main id="conteudo-principal">
+        <h1>Exemplo de Página com Background Dinâmico</h1>
+
+        <p>
+            Este exemplo utiliza <strong>atributos HTML</strong> para criar interatividade 
+            sem a necessidade de um arquivo CSS externo.
+        </p>
+
+        <hr>
+
+        <label for="trocar-bg">Escolha o Background:</label>
+        <select id="trocar-bg" onchange="document.getElementById('meu-background').background = this.value">
+            <option value="ceu.jpg">Céu (Padrão)</option>
+            <option value="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=500">Montanhas</option>
+            <option value="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=500">Lago</option>
+        </select>
+
+        <br><br>
+
+        <button type="button" onclick="document.getElementById('conteudo-principal').style.opacity = '0.1'">
+            Modo Focar no Fundo
+        </button>
+        
+        <button type="button" onclick="document.getElementById('conteudo-principal').style.opacity = '1'">
+            Mostrar Texto
+        </button>
+
+    </main>
+
+    <p style="margin-top: 50px;">
+        <em>Dica de Dev: Para alterar a imagem, o navegador busca o arquivo local ou um link direto (URL).</em>
+    </p>
+
+</body>
+</html>
