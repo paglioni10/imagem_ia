@@ -1,0 +1,25 @@
+quero que atue como um desenvolvedor front-end pleno, quero que implemente duas novas funções aso codigo que eu te mandar e "eleve" o nivel do codigo: <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício Background</title>
+</head>
+
+<body background="ceu.jpg">
+
+    <h1>Exemplo de Página com Background</h1>
+
+    <p>
+        Este é um exemplo simples de uma página HTML que utiliza uma imagem
+        como plano de fundo. O objetivo deste exercício é demonstrar como
+        podemos definir uma imagem de background em uma página utilizando
+        apenas HTML.
+    </p>
+
+    <p>
+        Para alterar a imagem, basta substituir o nome do arquivo
+        "imagem.jpg" pelo nome da imagem desejada.
+    </p>
+
+</body>
+</html> 
